@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>font-awesome:fa-camera</string>
+	<key>CFBundleIdentifier</key>
+	<string>me.birkhoff.launchbar.Screenshot</string>
+	<key>CFBundleName</key>
+	<string>Screenshot</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Birkhoff</string>
+		<key>LBEmail</key>
+		<string>admin@birkhoff.me</string>
+		<key>LBRequirements</key>
+		<string>iPic</string>
+		<key>LBResult</key>
+		<string>Screenshot file to be sent to iPic</string>
+		<key>LBSummary</key>
+		<string>Capture a screenshot, save it to ~/Downloads folder as original and
+		optimized with ImageAlpha, then pass optimized version back to LaunchBar for 
+		sending to another action</string>
+		<key>LBTwitter</key>
+		<string>@birkhoff_lee</string>
+		<key>LBWebsiteURL</key>
+		<string>https://blog.birkhoff.me</string>
+	</dict>
+	<key>LBRequirements</key>
+	<string>iPic</string>
+	<key>LBResult</key>
+	<string>Screenshot file to be sent to iPic</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBRunInBackground</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>screenshot.js</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
